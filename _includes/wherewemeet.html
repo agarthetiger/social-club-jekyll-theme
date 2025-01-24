@@ -11,6 +11,7 @@
     <div class="row">
       <div class="col-lg-8 mx-auto text-center">
         <div class="large text-muted">{{ site.data.sitetext[site.locale].wherewemeet.body | markdownify }}</div>
+        <iframe src="{{ site.data.sitetext[site.locale].wherewemeet.mapsrc }}" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
     </div>
   </div>
@@ -27,6 +28,7 @@
     <div class="row">
       <div class="col-lg-8 mx-auto text-center">
         <div class="large text-muted">{{ site.data.sitetext.wherewemeet.body | markdownify }}</div>
+        <iframe src="{{ site.data.sitetext[site.locale].wherewemeet.mapsrc }}" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
     </div>
   </div>
